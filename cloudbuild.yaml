@@ -22,5 +22,6 @@ steps:
     env:
     - 'CLOUDSDK_COMPUTE_REGION=us-central1-c'
     - 'CLOUDSDK_CONTAINER_CLUSTER=hello-cluster'
+
 options:
- logging: CLOUD_LOGGING_ONLY
+  logging: CLOUD_LOGGING_ONLY
